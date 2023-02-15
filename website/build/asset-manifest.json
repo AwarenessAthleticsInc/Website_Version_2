@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c0627ab.css",
+    "main.js": "/static/js/main.045e959e.js",
+    "static/media/Banner.jpg": "/static/media/Banner.487b625e0a6fac9a196b.jpg",
+    "static/media/Peterborough.png": "/static/media/Peterborough.2fc33afd157f84cc5bce.png",
+    "static/media/Bowmanville.png": "/static/media/Bowmanville.ada1a084cfb17ee2673b.png",
+    "static/media/Kingston.png": "/static/media/Kingston.d93eb5a96e20212d5d06.png",
+    "static/media/Belleville.png": "/static/media/Belleville.b820adb2d72e9f3143f2.png",
+    "static/media/Ajax.png": "/static/media/Ajax.25a929cd04bef1321b65.png",
+    "static/media/logo.webp": "/static/media/logo.ce77b770e3c702c0f76e.webp",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "static/media/user.webp": "/static/media/user.575e916bc19e1900b055.webp",
+    "main.2c0627ab.css.map": "/static/css/main.2c0627ab.css.map",
+    "main.045e959e.js.map": "/static/js/main.045e959e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c0627ab.css",
+    "static/js/main.045e959e.js"
+  ]
+}

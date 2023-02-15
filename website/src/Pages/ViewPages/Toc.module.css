@@ -1,0 +1,50 @@
+.toc-poster {
+    width: 100%;
+    padding: 5%;
+}
+
+.tocEventDates {
+    background: #FFF;
+    border-radius: 5px;
+    max-width: 100%;
+    min-height: 35%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin: 5%;
+    border: 1px solid rgba(2, 145, 11, 0.98);
+}
+
+.tocHeader {
+    padding: 2%;
+}
+
+.sectionDetails {
+    text-align: left;
+    padding: 2%;
+    margin: 2% 0;
+}
+
+.sectionFile {
+    width: 100%;
+    padding: 5%;
+}
+
+.logHeader {
+    margin: 5%;
+}
+
+.noTOC {
+    border: 1px dotted rgba(2, 145, 11, 0.98);
+    margin: 5% 10%;
+    padding: 5%;
+}
+
+.optionBTN {
+    margin: 1%;
+}
+
+#myimage:hover {
+    transform: scale(4);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    position: relative;
+    z-index: 1000;
+}

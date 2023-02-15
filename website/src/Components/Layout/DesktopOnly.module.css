@@ -1,0 +1,9 @@
+.desktopOnly,
+.desktopOnly * {
+    display: flex;
+}
+@media (max-width: 991px) {
+.desktopOnly, .desktopOnly * {
+        display: none;
+    }
+}

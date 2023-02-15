@@ -1,0 +1,10 @@
+.banner {
+    background-image: url("../../Assets/Images/Banner.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 15%;
+    text-align: center;
+}

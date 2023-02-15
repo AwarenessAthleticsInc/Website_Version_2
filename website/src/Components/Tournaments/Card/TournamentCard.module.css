@@ -1,0 +1,30 @@
+.cardBody {
+    text-align: center;
+}
+
+.CardContainer {
+    padding: 2%;
+}
+
+.event-poster[data-visible="true"] {
+    width: 98%;
+    margin: 1%; 
+}
+
+.viewBtn {
+    width: 98%;
+    margin: 1%;
+}
+.card {
+    border: none;
+    min-height: 510px;
+    /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
+    border-radius: 0.25rem;
+    padding: 1% 2%;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+

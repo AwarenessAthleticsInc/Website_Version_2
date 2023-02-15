@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.primaryBtn {
+    border-radius: 0%;
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+    width: 50%;
+    border: 1px solid #000000;
+    border-right: none;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to left, #000 50%, #ffffff 50%),
+        linear-gradient(to left, #fff 50%, #00A1CF 50%);
+    transition: background-position 1.5s;
+    -webkit-background-clip: text,
+        border-box;
+    background-clip: text,
+        border-box;
+    color: transparent;
+}
+.secondaryBtn {
+    border-radius: 0%;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to left, #000000, #ffffff),
+        linear-gradient(to left, #ffffff 50%, green 50%);
+    transition: background-position 1.5s;
+    -webkit-background-clip: text,
+        border-box;
+    background-clip: text,
+        border-box;
+    color: transparent;
+    width: 50%;
+    border: 1px solid #000000;
+    border-left: none;
+}
+
+.primaryBtn[data-left-focus="false"] {
+    background-position: -100% 0;
+}
+
+.secondaryBtn[data-right-focus="false"] {
+    background-position: 100% 0;
+}

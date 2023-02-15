@@ -1,0 +1,89 @@
+.sr-only {
+    visibility: hidden;
+    position: absolute;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+@media (max-width: 991px) {
+
+    .mobileOnly {
+        display: flex;
+    }
+}
+
+.desktopOnly,
+.desktopOnly * {
+    display: flex;
+}
+
+@media (max-width: 991px) {
+
+    .desktopOnly,
+    .desktopOnly * {
+        display: none;
+    }
+
+}
+
+@font-face {
+    font-family: showcard-gothic;
+    src: url("./fonts/SHOWG.TTF");
+}
+
+body {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    overflow: unset;
+    padding-top: 186px;
+}
+@media (max-width: 991px) {
+    body {
+            padding-top: 0;
+        }
+}
+
+.showcard {
+    font-family: 'showcard-gothic', sans-serif;
+    color: black;
+}
+
+.mc-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.w-200 {
+    width: 200%;
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+    border-color: #00A1CF;
+    color: #00A1CF;
+    background-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-outline-primary {
+    color: white;
+    background-color: #00A1CF;
+}

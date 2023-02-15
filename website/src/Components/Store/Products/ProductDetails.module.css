@@ -1,0 +1,132 @@
+.product {
+    margin: 5%;
+    padding: 1% 10%;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 61%, rgba(122, 201, 233, 1) 100%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.size-collection {
+    margin: 0 5%;
+    padding: 0;
+    width: 90%;
+}
+
+.active {
+    border: 2px solid green;
+}
+
+.cancel {
+    text-align: left;
+}
+
+.fa-times {
+    color: black;
+}
+
+.productImageSmall {
+    border: 1px solid lightGray;
+    padding: 5px;
+}
+
+.gallery {
+    margin: 2% auto;
+}
+
+.fa-times:hover,
+.error {
+    color: #FF3334;
+}
+
+.details {
+    text-align: left;
+}
+
+.price {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #1EB742;
+}
+
+.color {
+    padding: 2%
+}
+
+.less-important {
+    color: gray;
+    padding-left: 0;
+}
+
+.outOfStock {
+    text-decoration: line-through;
+}
+
+div.sizes {
+    padding: 0;
+}
+
+.outOfStockLabel {
+    font-size: 0.8rem;
+    color: #FF3334;
+}
+
+.price-Saled {
+    text-decoration: line-through;
+    color: #FF3334;
+}
+
+.sale {
+    color: #1EB742;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.sizesRow {
+    margin: 0;
+}
+
+.CheckoutDiv {
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 35%;
+    right: 35%;
+    border: 1px solid #0093E9;
+    align-items: center;
+    padding: 2%;
+    background: #FFF;
+    border-radius: 5px;
+    max-width: 100%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.productImage {
+    width: 100%;
+}
+
+.fa-check-circle {
+    color: green;
+    margin-top: 5%;
+}
+
+.buttons {
+    margin: 15% 0;
+}
+
+.keepShoppiongBTN {
+    background-color: #0093E9;
+    color: white;
+}
+
+.then {
+    margin-top: 2%;
+}
+
+.exit {
+    text-align: left;
+    margin-bottom: 2%;
+}
